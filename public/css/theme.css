@@ -11,7 +11,7 @@ body {
   width: 100%;
 }
 header {
-  padding: 6px;
+  padding: 8px;
 }
 main {
   margin: 0 auto;
@@ -81,14 +81,13 @@ main {
 
 .top-header {
   display: flex;
-  flex-wrap: wrap;
+ flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
 }
 
-.searcher {
-  width: 50%;
-  padding: 6px;
-  position: relative;
-}
+
 .submit {
   position: absolute;
 }
