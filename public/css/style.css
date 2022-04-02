@@ -132,7 +132,12 @@
   .product-card:hover .description {
     display: block;
 
+    
     /* Va encima de la product card porque la descripcion no se ve*/
+  }
+
+  .product-card:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
 
   .site,
