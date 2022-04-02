@@ -131,8 +131,6 @@
 
   .product-card:hover .description {
     display: block;
-
-    
     /* Va encima de la product card porque la descripcion no se ve*/
   }
 
@@ -160,5 +158,13 @@
   .top-header {
     flex-wrap: nowrap;
     justify-content: none;
+    
   }
+  
+.icono-fotter:hover {
+    color: #39b54a; 
+  }
+
+
+  
 }
